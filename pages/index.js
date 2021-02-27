@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
@@ -47,6 +48,17 @@ export default function Home() {
               Instantly deploy your Next.js site to a public URL with Vercel.
             </p>
           </a>
+
+          <Link href='/todos'>
+            <a
+              className={styles.card}
+            >
+              <h3>TODOs &rarr;</h3>
+              <p>
+                Visit TODOs list.
+              </p>
+            </a>
+          </Link>
         </div>
       </main>
 
