@@ -2,6 +2,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+### With docker-compose
+
+1. clone the repo
+2. `cd todo-app`
+3. `docker-compose build`
+4. `docker-compose up`
+5. visit http://localhost:3000/todos
+
 First, run the development server:
 
 ```bash
